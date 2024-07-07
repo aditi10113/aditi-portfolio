@@ -1,0 +1,61 @@
+/* Add these styles to your existing styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-light-gray); /* Light gray */
+    color: var(--color-text-dark); /* Dark text */
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--color-teal-blue); /* Teal blue */
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-light-blue); /* Light blue */
+}
+
+.bg-teal-blue {
+    background-color: var(--color-teal-blue); /* Teal blue */
+}
+
+.bg-light-blue {
+    background-color: var(--color-light-blue); /* Light blue */
+}
+
+.text-teal-blue {
+    color: var(--color-text-dark); /* Teal blue */
+}
+
+.text-light-gray {
+    color: var(--color-light-gray); /* Light gray */
+}
+
+.section-title {
+    color: var(--color-teal-blue); /* Teal blue */
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

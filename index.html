@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Custom colors: Teal blue, light blue, & light gray */
+        :root {
+            --color-teal-blue: #4B778D; /* Teal blue */
+            --color-light-blue: #AFDBD2; /* Light blue */
+            --color-light-gray: #CBD5E0; /* Light gray */
+            --color-text-dark: #2D3748; /* Dark text */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--color-light-gray); /* Light gray */
+            color: var(--color-text-dark); /* Dark text */
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            color: var(--color-teal-blue); /* Teal blue */
+        }
+
+        .navbar-light .navbar-nav .nav-link:hover {
+            color: var(--color-light-blue); /* Light blue */
+        }
+
+        .bg-teal-blue {
+            background-color: var(--color-teal-blue); /* Teal blue */
+        }
+
+        .bg-light-blue {
+            background-color: var(--color-light-blue); /* Light blue */
+        }
+
+        .text-teal-blue {
+            color: var(--color-teal-blue); /* Teal blue */
+        }
+
+        .text-light-gray {
+            color: var(--color-light-gray); /* Light gray */
+        }
+
+        .section-title {
+            color: var(--color-teal-blue); /* Teal blue */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-teal-blue">
+        <a class="navbar-brand text-light-blue" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link text-light-blue" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link text-light-blue" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link text-light-blue" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link text-light-blue" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron text-center bg-light-blue">
+        <div class="container text-teal-blue">
+            <h1 class="display-4">Hello, I'm Aditi bhargava</h1>
+            <p class="lead">A Passionate Web Developer</p>
+        </div>
+    </header>
+
+    <section id="about" class="container my-5">
+        <h2 class="section-title">About Me</h2>
+        <p class="text-dark">I am Aditi Bhargava, a proactive pre-final year student at Vellore Institute of Technology, Bhopal University, pursuing a Bachelor's degree in Computer Science Engineering.
+
+            My journey in technology has been driven by a fervent interest in front-end development, where I continuously refine my skills to craft engaging user experiences. Alongside, I am deeply engaged in enhancing my proficiency in data structures and algorithms, with a keen focus on delving into the dynamic realm of network security.
+            
+            I am driven by a passion for leveraging technology to tackle real-world challenges, constantly seeking opportunities to innovate and create impactful solutions. I thrive in collaborative environments and am always eager to embrace new learning experiences that foster personal and professional growth.
+            
+            I am open to exploring diverse opportunities that enable me to broaden my horizons and contribute meaningfully to the ever-evolving landscape of technology.</p>
+    </section>
+
+    <section id="portfolio" class="container my-5">
+        <h2 class="section-title">Portfolio</h2>
+        <div class="row">
+            <!-- Add your portfolio items here -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.ytimg.com/vi/TwYKwaEjJd4/maxresdefault.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio </h5>
+                        <p class="card-text text-dark">A personal portfolio website designed to showcase my skills, projects, and experiences. Built with HTML, CSS, and Bootstrap, it features a clean, modern layout with a responsive design. Includes sections for about, skills, portfolio, and contact details.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/1341622616/vector/new-email-notification-on-the-smartphone-screen-isometric.jpg?s=612x612&w=0&k=20&c=CuN2chtKZGzdH_Oz_who_IvhtS-4-fvhJJJVAclHgOA=" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Email alerts on whatsapp</h5>
+                        <p class="card-text text-dark">The Email Alerts on WhatsApp project aims to integrate email notification functionality with WhatsApp to enable users to receive important email alerts directly on their WhatsApp messenger. This integration will enhance user experience by providing timely notifications and ensuring that critical information is not missed.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://www.analyticssteps.com/backend/media/thumbnail/859537/9491906_1602070936_Untitled-2%20(2).jpg" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Healthcure</h5>
+                        <p class="card-text text-dark">Blockchain-Powered Hospital Data Management revolutionizes healthcare data handling. By leveraging blockchain technology, we establish a secure, transparent, and immutable system for managing patient records. Hospitals share data efficiently while ensuring data integrity. Smart contracts govern access, and users can verify data authenticity. Telemedicine and a healthcare chatbot enhance patient care.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="container my-5">
+        <h2 class="section-title">Skills</h2>
+        <div class="row">
+            <div class="col-lg-4">
+                <h5 class="text-dark">Frontend Development</h5>
+                <ul class="skills-list">
+                    <li><i class="fas fa-code"></i> HTML5 & CSS3</li>
+                    <li><i class="fas fa-code"></i> JavaScript (ES6+)</li>
+                    <li><i class="fas fa-mobile-alt"></i> Responsive Design</li>
+                    <li><i class="fab fa-bootstrap"></i> Bootstrap & other frameworks</li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <h5 class="text-dark">Backend Development</h5>
+                <ul class="skills-list">
+                    <li><i class="fab fa-node-js"></i> Node.js</li>
+                    <li><i class="fas fa-server"></i> Express.js</li>
+                    
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <h5 class="text-dark">Other Skills</h5>
+                <ul class="skills-list">
+                    <li><i class="fab fa-git"></i> Git Version Control</li>
+                    <li><i class="fas fa-paint-brush"></i> UI/UX Design Principles</li>
+                    <li><i class="fas fa-tools"></i> Problem Solving</li>
+                    <li><i class="fas fa-users"></i> c++</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container my-5">
+        <h2 class="section-title">Contact Me</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <footer class="bg-light-gray text-dark text-center py-4">
+        <p>&copy; 2024 Aditi Bhargava. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
